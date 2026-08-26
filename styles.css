@@ -1,29 +1,41 @@
         body {
-            font-family: Arial, sans-serif;
+            font-family: Silkscreen, monospace;
             margin: 50px;
-            background-color: #f4f4f9;
+            background-color: #FFCEE3;
             display: flex;
             justify-content: center;
             align-items: center;
         }
         .converterBox {
-            max-width: 300px;
-            padding: 1rem;
-            background: rgb(98, 127, 255);
-            border-radius: 8px;
-            border: .2rem solid #000000;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 30rem;
+            padding: 2rem;
+            background: #F599C6;
+            border-radius: 15px;
+            border: .5rem solid #FF85BB;
+            box-shadow: 0 8px 8px #021b5471;
+        }
+        .converterBox:hover {
+            scale: 1.02;
+            transition: all 0.3s ease-in-out;
         }
         label {
+            color: #021A54;
             font-weight: bold;
             display: block;
-            margin-top: 10px;
+            margin-top: .5rem;
         }
         input {
             width: 100%;
             padding: 8px;
-            margin-top: 5px;
+            margin-top: 0.5rem;
             box-sizing: border-box;
-            border: 1px solid #ccc;
+            border: .3rem solid #FFCEE3;
             border-radius: 4px;
+            font-family: Silkscreen, monospace;
+        }
+        input:hover {
+            border-color: #000000;
+        }
+        h2 {
+            color: #021A54;
         }
