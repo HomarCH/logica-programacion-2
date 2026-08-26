@@ -1,0 +1,28 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            background-color: #f4f4f9;
+            justify-content: center;
+            align-items: center;
+        }
+        .converterBox {
+            max-width: 300px;
+            padding: 1rem;
+            background: rgb(98, 127, 255);
+            border-radius: 8px;
+            border: .2rem solid #000000;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }

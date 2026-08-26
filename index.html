@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Celsius Converter</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
-    <div>
-        <h1>Conversor de Temperatura</h1>
-    </div>
+<div class="converterBox">
+    <h2>Conversor de Temperatura</h2>
     
+    <label for="celsius">Celsius (°C):</label>
+    <input type="number" id="celsius" placeholder="Enter Celsius..." oninput="convertTemperature()">
+    
+    <label for="fahrenheit">Fahrenheit (°F):</label>
+    <input type="text" id="fahrenheit" readonly placeholder="Result...">
+    
+    <label for="kelvin">Kelvin (K):</label>
+    <input type="text" id="kelvin" readonly placeholder="Result...">
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
