@@ -1,7 +1,7 @@
         body {
             font-family: Silkscreen, monospace;
             margin: 50px;
-            background-color: #FFCEE3;
+            background-color: #bde0fe;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -9,9 +9,9 @@
         .converterBox {
             max-width: 30rem;
             padding: 2rem;
-            background: #F599C6;
+            background: #feabd3;
             border-radius: 15px;
-            border: .5rem solid #FF85BB;
+            border: .5rem solid #e4789f;
             box-shadow: 0 8px 8px #021b5471;
         }
         .converterBox:hover {
@@ -19,7 +19,7 @@
             transition: all 0.3s ease-in-out;
         }
         label {
-            color: #021A54;
+            color: #a55cd0;
             font-weight: bold;
             display: block;
             margin-top: .5rem;
@@ -29,13 +29,14 @@
             padding: 8px;
             margin-top: 0.5rem;
             box-sizing: border-box;
-            border: .3rem solid #FFCEE3;
+            border: .3rem solid #a2d2ff;
             border-radius: 4px;
             font-family: Silkscreen, monospace;
+            background-color: #e3f2ff;
         }
         input:hover {
-            border-color: #000000;
+            border-color: #cdb4db;
         }
         h2 {
-            color: #021A54;
+            color: #a55cd0;
         }
