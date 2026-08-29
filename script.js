@@ -20,4 +20,7 @@ function convertTemperature() {
     //mostrar los resultados
     fahrenheitField.value = fahrenheit.toFixed(2) + " °F";
     kelvinField.value = kelvin.toFixed(2) + " K";
+
+    
+
 }

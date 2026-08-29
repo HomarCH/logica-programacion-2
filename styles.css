@@ -11,8 +11,8 @@
             padding: 2rem;
             background: #feabd3;
             border-radius: 15px;
-            border: .5rem solid #e4789f;
-            box-shadow: 0 8px 8px #021b5471;
+            border: 6px solid #e4789f;
+            box-shadow: inset 8px 8px 0 0 #ffd6e5;   
         }
         .converterBox:hover {
             scale: 1.02;
@@ -23,20 +23,23 @@
             font-weight: bold;
             display: block;
             margin-top: .5rem;
+            
         }
         input {
             width: 100%;
             padding: 8px;
             margin-top: 0.5rem;
             box-sizing: border-box;
-            border: .3rem solid #a2d2ff;
+            border: .3rem solid #e4789f;
             border-radius: 4px;
             font-family: Silkscreen, monospace;
-            background-color: #e3f2ff;
+            background-color: #9fcdf5;
+            color: #a55cd0;
+            box-shadow: inset 4px 5px 0 0 #eaf5ff;
         }
         input:hover {
             border-color: #cdb4db;
         }
-        h2 {
+        h2, h3 {
             color: #a55cd0;
         }
