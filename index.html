@@ -17,14 +17,14 @@
     <h2>Conversor de Temperatura</h2>
     <h3>°C -> °F y K</h3>
     
-    <label for="celsius">Celsius (°C):</label>
-    <input type="number" id="celsius" placeholder="Ingrese Celsius..." oninput="convertTemperature()">
-    
-    <label for="fahrenheit">Fahrenheit (°F):</label>
-    <input type="text" id="fahrenheit" readonly placeholder="Resultado...">
-    
-    <label for="kelvin">Kelvin (K):</label>
-    <input type="text" id="kelvin" readonly placeholder="Resultado...">
+<label>Celsius:</label>
+<input type="number" id="celsius" oninput="convertTemperature('celsius')">
+
+<label>Fahrenheit:</label>
+<input type="number" id="fahrenheit" oninput="convertTemperature('fahrenheit')">
+
+<label>Kelvin:</label>
+<input type="number" id="kelvin" oninput="convertTemperature('kelvin')">
 </div>
 
 <script src="script.js"></script>

@@ -4,6 +4,8 @@
             background-color: #bde0fe;
             display: flex;
             justify-content: center;
+            align-content: center;
+            justify-items: center;
             align-items: center;
         }
         .converterBox {
