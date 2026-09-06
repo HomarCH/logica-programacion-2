@@ -1,4 +1,4 @@
-function convertTemperature(scale) {
+function convertTemp(scale) {
     const celsiusField = document.getElementById("celsius");
     const fahrenheitField = document.getElementById("fahrenheit");
     const kelvinField = document.getElementById("kelvin");

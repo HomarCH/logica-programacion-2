@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celsius Converter</title>
+    <title>Conversor de temperatura</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
@@ -13,18 +13,26 @@
 <body>
 
 <div class="converterBox">
-    <h1 style="text-align: center;"><( ° w ° )></h1>
-    <h2>Conversor de Temperatura</h2>
-    <h3><marquee scrolldelay="60">///// Ingresa la unidad que deseas convertir: /////</marquee></h3>
-    
-    <label>Celsius:</label>
-    <input type="number" id="celsius" oninput="convertTemperature('celsius')">
+    <div class="converterTop">
+        <h1>(˶ᵔ ᵕ ᵔ˶)</h1>
+        <h2>Conversor de Temperatura</h2>
+        <h3><marquee scrolldelay="60"> Ingresa la unidad que deseas convertir: </marquee></h3>
+    </div>
 
-    <label>Fahrenheit:</label>
-    <input type="number" id="fahrenheit" oninput="convertTemperature('fahrenheit')">
+    <div class="converterBottom">
+        <label>Celsius:</label>
+        <input type="number" id="celsius" oninput="convertTemp('celsius')">
 
-    <label>Kelvin:</label>
-    <input type="number" id="kelvin" oninput="convertTemperature('kelvin')">
+        <label>Fahrenheit:</label>
+        <input type="number" id="fahrenheit" oninput="convertTemp('fahrenheit')">
+
+        <label>Kelvin:</label>
+        <input type="number" id="kelvin" oninput="convertTemp('kelvin')">
+    </div>
+
+    <div class="homar">
+    <h5>Homar-CH 2026</h5>
+    </div>
 </div>
 
 <script src="script.js"></script>

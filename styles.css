@@ -1,52 +1,73 @@
     :root {
-    --color-primario: #E1AFD1;
-    --color-secundario: #FFE6E6;
-    --color-acento: #AD88C6;
-    --color-tipografia: #7469B6;
-    --color-fondo: #a2acd0;
+    --color-prim: #364F6B;
+    --color-sec: #FC5185;
+    --color-ter: #F5F5F5;
+    --color-blanco: #ffffff;
+    --color-sombra: #3FC1C9;
     font-family: Silkscreen, monospace;
     }
     body {
+        min-height: 100vh;
+        min-height: 100dvh;
         padding: 2rem;
         background-color: var(--color-fondo);
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
         justify-items: center;
         align-items: center;
     }
     .converterBox {
-        max-width: 30rem;
-        padding: 2rem;
-        background-color: var(--color-primario);
-        color: var(--color-tipografia);
+        display: flex;
+        flex-direction: column;
+        max-width: 50rem;
+        background-color: var(--color-ter);
+        color: var(--color-blanco);
         border-radius: 15px;
-        border: 6px solid #e4789f;
-        box-shadow: 8px 8px 0 #6175c8;   
+        border: 8px solid var(--color-prim);
+        box-shadow: 12px 12px 0 var(--color-sombra);   
     }
     .converterBox:hover {
-        scale: 1.02;
+        scale: 1.01;
         transition: all 0.3s ease-in-out;
     }
+    .converterTop {
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        background-color: var(--color-prim);
+    }
+    .converterBottom{
+        color: var(--color-prim);
+        padding: 2rem;
+    }
     label {
-        color: #a55cd0;
-        font-weight: bold;
         display: block;
-        margin-top: .5rem;
-        
+        margin-top: .5rem; 
     }
     input {
         width: 100%;
         padding: 8px;
         margin-top: 0.5rem;
         box-sizing: border-box;
-        border: .3rem solid #e4789f;
-        border-radius: 4px;
+        border: .3rem solid var(--color-prim);
+        border-radius: 2rem;
         font-family: Silkscreen, monospace;
-        background-color: var(--color-secundario);
-        color: #a55cd0;
-        box-shadow: inset 4px 5px 0 0 #eaf5ff;
+        color: var(--color-blanco);
+        background-color: var(--color-sec);
+
     }
-    input:hover {
-        border-color: #cdb4db;
+    marquee{
+        white-space: nowrap;
+        justify-content: space-around;
+    }
+    .homar{
+        padding-right: 2rem;
+        justify-items: end;
+        color: var(--color-prim);
     }
