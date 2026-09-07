@@ -1,9 +1,10 @@
     :root {
-    --color-prim: #364F6B;
-    --color-sec: #FC5185;
-    --color-ter: #F5F5F5;
-    --color-blanco: #ffffff;
-    --color-sombra: #3FC1C9;
+    --color-prim: #F875AA;
+    --color-sec: #AEDEFC;
+    --color-ter: #FDEDED;
+    --color-blanco: #fff;
+    --color-sombra: #ffb1d0;
+    --color-fondo: #fff;
     font-family: Silkscreen, monospace;
     }
     body {
@@ -58,6 +59,8 @@
         border: .3rem solid var(--color-prim);
         border-radius: 2rem;
         font-family: Silkscreen, monospace;
+        font-weight: bold;
+        font-size: large;
         color: var(--color-blanco);
         background-color: var(--color-sec);
 
